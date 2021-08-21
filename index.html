@@ -5,14 +5,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="initial-scale=1, maximum-scale=1" />
     <link rel="stylesheet" href="./pages/index.css" />
-    <title>место</title>
+    <title>Mesto</title>
   </head>
   <body class="page">
       <header class="header">
         <a href="#" class="header__logo"></a>
       </header>
       <section class="profile">
-        <img src="./images/image.png" class="profile__avatar">
+        <img src="./images/image.png" class="profile__avatar" alt="фото профиля">
         <div class="profile__info">
           <h1 class="profile__name">Жак-Ив Кусто</h1>
           <button class="profile__edit-button"></button>
@@ -22,44 +22,44 @@
       </section>
       <section class="elements">
         <div class="elements__item">
-          <img src="./images/kirill-pershin-1404681-unsplash.png" class="elements__image">
+          <img src="./images/686173_original.jpg" class="elements__image" alt="Хальмер-Ю">
           <div class="elements__info">
-            <h2 class="elements__name">Гора Эльбрус</h2>
+            <h2 class="elements__name">Хальмер-Ю</h2>
             <button  type="button" class="elements__like"></button>
           </div>
         </div>
         <div class="elements__item">
-          <img src="./images/kirill-pershin-1404681-unsplash.png" class="elements__image">
+          <img src="./images/EmA2yZpWoAUzejN.jpg" class="elements__image" alt="мыс Анива">
           <div class="elements__info">
-            <h2 class="elements__name">Гора Эльбрус</h2>
+            <h2 class="elements__name">мыс Анива</h2>
             <button  type="button" class="elements__like"></button>
           </div>
         </div>
         <div class="elements__item">
-          <img src="./images/kirill-pershin-1404681-unsplash.png" class="elements__image">
+          <img src="./images/buran-kosmicheskij-korabl-kotoryj-byl-zabroshen-643106b.jpg" class="elements__image" alt="Байконур">
           <div class="elements__info">
-            <h2 class="elements__name">Гора Эльбрус</h2>
+            <h2 class="elements__name">Байконур</h2>
             <button  type="button" class="elements__like"></button>
           </div>
         </div>
         <div class="elements__item">
-          <img src="./images/kirill-pershin-1404681-unsplash.png" class="elements__image">
+          <img src="./images/scale_1200.jpg" class="elements__image" alt="Мурманская область">
           <div class="elements__info">
-            <h2 class="elements__name">Гора Эльбрус</h2>
+            <h2 class="elements__name">Мурманская область</h2>
             <button  type="button" class="elements__like"></button>
           </div>
         </div>
         <div class="elements__item">
-          <img src="./images/kirill-pershin-1404681-unsplash.png" class="elements__image">
+          <img src="./images/62748340.jpg" class="elements__image" alt="Якутия">
           <div class="elements__info">
-            <h2 class="elements__name">Гора Эльбрус</h2>
+            <h2 class="elements__name">Якутия</h2>
             <button  type="button" class="elements__like"></button>
           </div>
         </div>
         <div class="elements__item">
-          <img src="./images/kirill-pershin-1404681-unsplash.png" class="elements__image">
+          <img src="./images/2896203159.jpg" class="elements__image" alt="Муромцево">
           <div class="elements__info">
-            <h2 class="elements__name">Гора Эльбрус</h2>
+            <h2 class="elements__name">Муромцево</h2>
             <button  type="button" class="elements__like"></button>
           </div>
         </div>
@@ -70,10 +70,12 @@
       <div class="popup" >
         <div class="popup__container">
           <button type="button" class="popup__close"></button>
-          <h2 class="popup__title">Редактировать профиль</h2>
-          <input type="text" name="name" class="popup__name" placeholder="Имя">
-          <input type="text" name="specialization" class="popup__specialization" placeholder="Профессия">
-          <button class="popup__submit" type="submit">Сохранить</button>
+          <form class="popup__form" >
+            <h2 class="popup__title">Редактировать профиль</h2>
+            <input type="text" name="name" class="popup__name" placeholder="Имя">
+            <input type="text" name="specialization" class="popup__specialization" placeholder="Профессия">
+            <button class="popup__submit" type="submit">Сохранить</button>
+          </form>
         </div>
       </div>
       <script src="./scripts/index.js"></script>

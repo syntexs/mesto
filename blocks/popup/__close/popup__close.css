@@ -5,8 +5,21 @@
   background: url(../../../images/Close\ Icon.svg);
   background-repeat: no-repeat;
   background-position: center;
+  background-size: cover;
   border: none;
   position: absolute;
   bottom: 338px;
   left: 438px;
+  cursor: pointer;
+}
+.popup__close:hover {
+  opacity: 0.6;
+}
+@media screen and (max-width: 530px) {
+  .popup__close {
+    width: 20px;
+    height: 20px;
+    bottom: 338px;
+    left: 261px;
+  }
 }

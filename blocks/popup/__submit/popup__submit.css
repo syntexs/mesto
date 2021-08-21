@@ -5,4 +5,21 @@
   background: #000000;
   border-radius: 2px;
   color: #fff;
+  cursor: pointer;
+  padding: 0;
+  border: none;
+}
+.popup__submit:hover{
+  opacity: 0.8;
+}
+@media screen and (max-width: 530px) {
+  .popup__submit {
+    width: 238px;
+    height: 46px;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    margin: 45px 22px 25px 22px;
+
+  }
 }

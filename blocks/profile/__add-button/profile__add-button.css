@@ -8,6 +8,7 @@ background: url(../../../images/add__button.svg);
 background-repeat: no-repeat;
 background-position: center;
 border-radius: 2px;
+cursor: pointer;
 }
 
 @media screen and (max-width: 880px) {
@@ -20,3 +21,6 @@ border-radius: 2px;
   }
 }
 
+.profile__add-button:hover{
+  opacity: 0.6;
+}
