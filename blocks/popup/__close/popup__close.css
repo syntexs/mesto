@@ -7,10 +7,10 @@
   background-position: center;
   background-size: cover;
   border: none;
-  position: absolute;
-  bottom: 338px;
-  left: 438px;
+  bottom: 8px;
+  left: 239px;
   cursor: pointer;
+  position: relative;
 }
 .popup__close:hover {
   opacity: 0.6;
@@ -19,7 +19,7 @@
   .popup__close {
     width: 20px;
     height: 20px;
-    bottom: 338px;
-    left: 261px;
+    bottom: 16px;
+    left: 132px;
   }
 }
