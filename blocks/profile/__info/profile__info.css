@@ -2,3 +2,11 @@
   display: grid;
   grid-template-columns: repeat(2, auto);
 }
+
+@media screen and (max-width: 600px) {
+  .profile__info {
+    margin-left: 65px;
+    margin-right: 65px;
+
+  }
+}

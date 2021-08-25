@@ -8,6 +8,11 @@
   cursor: pointer;
   padding: 0;
   border: none;
+  margin-bottom: 37px;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 22px;
+
 }
 .popup__submit:hover{
   opacity: 0.8;

@@ -8,6 +8,7 @@
   font-weight: normal;
   font-size: 14px;
   line-height: 17px;
+  margin-bottom: 30px;
 
 }
 @media screen and (max-width: 530px) {
@@ -19,6 +20,7 @@
   }
 }
 
-.popup__input:nth-child(2) {
-  margin-bottom: 30px;
+.popup__input:nth-child(3) {
+  margin-bottom: 0;
 }
+/*про инпуты вообще не понял :( */

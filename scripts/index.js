@@ -28,7 +28,7 @@ function formSubmitHandler (event) {
   event.preventDefault();
   profileName.textContent = inputName.value;
   profileDesc.textContent = inputSpec.value;
-  submitButton.addEventListener('click', togglePopup);
+  togglePopup();
 
 }
 form.addEventListener('submit', formSubmitHandler);
