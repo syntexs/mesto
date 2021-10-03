@@ -22,54 +22,14 @@
         <button  type="button" class="profile__add-button"></button>
       </section>
       <section class="elements">
-        <div class="elements__item">
-          <img src="./images/686173_original.jpg" class="elements__image" alt="Хальмер-Ю">
-          <div class="elements__info">
-            <h2 class="elements__name">Хальмер-Ю</h2>
-            <button  type="button" class="elements__like"></button>
-          </div>
-        </div>
-        <div class="elements__item">
-          <img src="./images/EmA2yZpWoAUzejN.jpg" class="elements__image" alt="мыс Анива">
-          <div class="elements__info">
-            <h2 class="elements__name">мыс Анива</h2>
-            <button  type="button" class="elements__like"></button>
-          </div>
-        </div>
-        <div class="elements__item">
-          <img src="./images/buran-kosmicheskij-korabl-kotoryj-byl-zabroshen-643106b.jpg" class="elements__image" alt="Байконур">
-          <div class="elements__info">
-            <h2 class="elements__name">Байконур</h2>
-            <button  type="button" class="elements__like"></button>
-          </div>
-        </div>
-        <div class="elements__item">
-          <img src="./images/scale_1200.jpg" class="elements__image" alt="Мурманская область">
-          <div class="elements__info">
-            <h2 class="elements__name">Мурманская область</h2>
-            <button  type="button" class="elements__like"></button>
-          </div>
-        </div>
-        <div class="elements__item">
-          <img src="./images/62748340.jpg" class="elements__image" alt="Якутия">
-          <div class="elements__info">
-            <h2 class="elements__name">Якутия</h2>
-            <button  type="button" class="elements__like"></button>
-          </div>
-        </div>
-        <div class="elements__item">
-          <img src="./images/2896203159.jpg" class="elements__image" alt="Муромцево">
-          <div class="elements__info">
-            <h2 class="elements__name">Муромцево</h2>
-            <button  type="button" class="elements__like"></button>
-          </div>
-        </div>
+
       </section>
     </main>
       <footer class="footer">
         <p class="footer__copyright">© 2020 Mesto Russia</p>
       </footer>
-      <div class="popup" >
+
+      <div class="popup popup_type_edit-profile"  >
         <button type="button" class="popup__close"></button>
         <div class="popup__container">
           <form  name="form" class="popup__form" >
@@ -80,6 +40,31 @@
           </form>
         </div>
       </div>
+
+      <div class="popup popup_type_add-card" >
+        <button type="button" class="popup__close"></button>
+        <div class="popup__container">
+          <form  name="form" class="popup__form" >
+            <h2 class="popup__title">Новое место</h2>
+            <input type="text" name="place" class="popup__input popup__input_type_place" placeholder="Название">
+            <input type="text" name="image" class="popup__input popup__input_type_image" placeholder="Ссылка на изображение">
+            <button class="popup__submit" type="submit">Сохранить</button>
+          </form>
+        </div>
+      </div>
+
+
+      <template id='card-template'>
+        <div class="elements__item">
+          <button  type="button" class="elements__delete"></button>
+          <img src="" class="elements__image" alt="">
+          <div class="elements__info">
+            <h2 class="elements__name"></h2>
+            <button  type="button" class="elements__like"></button>
+          </div>
+        </div>
+      </template>
+
       <script src="./scripts/index.js"></script>
   </body>
 </html>
